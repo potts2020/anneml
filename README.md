@@ -11,7 +11,7 @@ Anneml is a composite neural network builder designed with simplicity in mind. C
 Anneml neural networks have layer level control for each individual network. The system is flexibly designed to allow for many node types in a single network at a layer level, minimizing surface complexity and extending the capabilities of each network.
 
 ## My First Network
-Anneml relies on [Arrayfire]: https://github.com/arrayfire/arrayfire-rust  to properly work.
+Anneml relies on [Arrayfire](https://github.com/arrayfire/arrayfire-rust "Arrayfire") to properly work.
 
 Networks can be created using the following: 
 
