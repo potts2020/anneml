@@ -41,6 +41,7 @@ let attribute = Attribute::new(
 
 ## Road Map
 
+- Further Documentation
 - Built In Back Propagation Evaluation
 - Long Short Term Memory Cell Type
 - Kernel Convolution Cell Type
