@@ -11,6 +11,7 @@ Anneml is a composite neural network builder designed with simplicity in mind. C
 Anneml neural networks have layer level control for each individual network. The system is flexibly designed to allow for many node types in a single network at a layer level, minimizing surface complexity and extending the capabilities of each network.
 
 ## My First Network
+Anneml relies on [Arrayfire]:https://github.com/arrayfire/arrayfire-rust  to properly work.
 
 Networks can be created using the following: 
 
@@ -25,16 +26,16 @@ let attribute = Attribute::new(
     Scope::new(0,1)); // Determine the layer weight scope
 
 //Assign attributes to a new neural network
-    let mut network = Network::new(
-        Node::new(
-         	Uuid::from_u128(0), // Assign a Seed
-            NodeType::Leaf(
-                attribute.clone(), // Assign an input layer
-                vec![
-                    (attribute.clone(), 2), // Hidden layer
-                    (attribute.clone(), 2), // Output layer
-                ]
-            )));
+let mut network = Network::new(
+    Node::new(
+        Uuid::from_u128(0), // Assign a Seed
+        NodeType::Leaf(
+            attribute.clone(), // Assign an input layer
+            vec![
+                (attribute.clone(), 2), // Hidden layer
+                (attribute.clone(), 2), // Output layer
+            ]
+        )));
 ```
 
 
