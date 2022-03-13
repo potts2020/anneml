@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["LinkType","LinkType flag used in Edges link function."],["NodeRange","Establishes if all values from a Node are to be linked if only certain values will be passed."]]});

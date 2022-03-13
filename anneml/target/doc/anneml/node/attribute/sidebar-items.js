@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Activation",""],["CellType",""],["TensorDescriptor","Tensor Operation enumeration determines the Tensor operation to apple to a Arrayfire Array."]],"struct":[["Attribute",""]]});
